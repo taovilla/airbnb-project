@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.nav{
+box-shadow: 10px 5px 5px #f2f4f7;
+border-radius: 10px 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.logo{
+  width: 10rem;
+  padding:20px 30px;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero{
+padding-top: 50px;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.hero-image{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 0px;
+  width:50%;
+  
+}
+
+.hero-text{
+  padding: 20px 20px 20px 100px;
+}
+.hero-text>h1{
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.card{
+  padding: 50px;
+  position: relative;
+}
+.card-text{
+  padding-top: 10px;
+}
+
+.card-text>img{
+  width: 18px;
+  padding-right: 5px;
+}
+
+.card-text >span{
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+}
+
+
+.card-text>p{
+  font-size: 13px;
+  padding-top: 3px;
+  color: grey;
+}
+
+.card-text>h5{
+  font-size: 12px;
+  padding: 3px;
+}
+.card-text>h5>span{
+  color: gray;
+}
+
+.card-list{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.card--badage{
+margin: 10px 10px;
+  position: absolute;
+  padding: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
